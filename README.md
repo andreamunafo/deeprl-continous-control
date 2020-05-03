@@ -1,4 +1,4 @@
-# Reinforcement Learning and Continous Control
+# Continuous Control of a Double-Jointed Arm using Reinforcement Learning
 This project solves the Unity ML-Agents continuous control environment through reinforcement learning.
 
 In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.
