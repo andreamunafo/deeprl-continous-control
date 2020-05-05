@@ -47,7 +47,7 @@ REPLAY_EVENTS = 7      # update the networks for these many times.
 
 ## Results
 
-The environment is solved in NNN episodes, with an average score of NNN over 100 episodes.
+The environment is solved in 100 episodes, with an average score of 31.62 over 100 episodes.
 
 
 ![scores](pics/scores.png)
