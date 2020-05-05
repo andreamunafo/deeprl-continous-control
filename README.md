@@ -10,7 +10,7 @@ The environment is considered solved when the agents get an average score of +30
 
 
 <p align="center">
-<img src="pics/continuous-control.gif" width="300" height=250>
+<img src="pics/continuous-control.gif" width="400" height=250>
 <!--img src="pics/untrained.gif" width="300" height=250-->
 </p>
 
