@@ -8,6 +8,13 @@ The observation space consists of 33 variables corresponding to position, rotati
 There are 20 identical agents, each with its own copy of the environment.
 The environment is considered solved when the agents get an average score of +30 (over 100 consecutive episodes, and over all agents)
 
+
+<p align="center">
+<img src="pics/continuous-control.gif" width="300" height=250>
+<!--img src="pics/untrained.gif" width="300" height=250-->
+</p>
+
+
 # Getting Started
 
 ## Installing dependencies
