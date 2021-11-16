@@ -38,7 +38,7 @@ cd python/
 pip install .
 ```
 
-Since this repository uses jupyter notebook, install the corresponding banana-navigation kernel:
+Since this repository uses jupyter notebook, install the corresponding continuous-control kernel:
 
 ```
 python -m ipykernel install --user --name drlnd --display-name "continuous-control"
@@ -47,4 +47,4 @@ Finally, in jupyter notebook, before running the code, make sure that the approp
 
 ## How to run it
 
-Run the `continous-control.ipynb` notebook.
+Run the `continuous-control-double-joint-arm.ipynb` notebook.
