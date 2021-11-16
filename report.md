@@ -25,7 +25,7 @@ self.fc3 = nn.Linear(fc2, action_size)
 where state_size=33, fc1=128, fc2=256, action_size=4.
 Each linear layer is followed by a ReLU activation function, except for the last one which uses a tanh to constrain the action values to the correct range.
 
-The Q-function network in this implementation uses the same architecture, except for the last linear layer that has no non-linear activaction after it and is used to directly output the q-values.
+The Q-function network in this implementation uses the same architecture, except for the last linear layer that has no non-linear activation after the linear layer to directly output q-values.
 
 
 ## Hyperparameters
@@ -35,7 +35,7 @@ BUFFER_SIZE = int(1e6)  # replay buffer size
 BATCH_SIZE  = 128       # minibatch size
 GAMMA       = 0.95      # discount factor
 TAU         = 1e-3      # for soft update of target parameters
-LR_ACTOR    = 1e-4      # learning rate of the actor 
+LR_ACTOR    = 1e-4      # learning rate of the actor
 LR_CRITIC   = 1e-3      # learning rate of the critic
 WEIGHT_DECAY = 0        # L2 weight decay
 UPDATE_EVERY = 20       # how often to update the network
