@@ -47,4 +47,4 @@ Finally, in jupyter notebook, before running the code, make sure that the approp
 
 ## How to run it
 
-Run the continous-control.ipynb notebook.
+Run the `continous-control.ipynb` notebook.
